@@ -1,0 +1,37 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int grade;
+    float avg;
+    cout<<"Enter the marks of thr student :";
+    cin>>grade;
+    if(grade<500 && grade>=450)
+    {
+        cout<<"Student has got 'A' grade";
+    }
+    else if(grade<450 && grade>=400)
+    {
+        cout<<"Student has got 'B' grade";
+    }
+    else if(grade<400 && grade>=350)
+    {
+        cout<<"Student has got 'C' grade";
+    }
+    else if (grade<350 && grade>=300)
+    {
+        cout<<"Student has got 'D' grade";
+    }
+    else if (grade<300 && grade>=250 )
+    {
+        cout<<"Student has got 'E' grade";
+    }
+    else if(grade<250)
+    {
+        cout<<"Student has got 'F' grade";
+    }
+   avg=grade/5;
+   cout<<"\nAverage= "<<avg;
+   return 0;
+   
+}
